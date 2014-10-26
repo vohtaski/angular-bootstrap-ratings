@@ -2,7 +2,7 @@ angular-bootstrap-ratings
 =========================
 
 Contains minimal amount of bootstrap modules needed to implement
-5 star ratings with basic statistics with templates
+5 star ratings with basic statistics like below:
 
 ![Screenshot](https://github.com/graspeo/angular-bootstrap-ratings/blob/master/screenshot.png)
 
@@ -19,9 +19,13 @@ angular.module("ui.bootstrap.ratings", [
 ]);
 ```
 
-Installation:
+Installation and usage:
 ```bash
 bower install angular-bootstrap-ratings
+```
+
+```js
+angular.module('myModule', ['ui.bootstrap.ratings']);
 ```
 
 Based on angular version below
